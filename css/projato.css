@@ -30,3 +30,16 @@
   background: #125688;
   color: white;
 }
+
+/* mappa proloco nei credits responsive */
+
+#credits img {
+  max-width:100%;
+}
+
+/* title più piccolo */
+
+
+a.navbar-brand {
+    font-size: 1rem;
+}
