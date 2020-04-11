@@ -43,3 +43,10 @@
 a.navbar-brand {
     font-size: 1rem;
 }
+
+/* legenda responsive */
+
+
+#mappa img {
+  max-width:100%;
+}
