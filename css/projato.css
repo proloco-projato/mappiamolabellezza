@@ -12,10 +12,14 @@ a.navbar-brand {
     font-size: 1rem;
 }
 
-/* legenda responsive */
+/* img responsive */
 
 
-#mappa img {
+#comesiusa img {
+  max-width:100%;
+}
+
+#mappahome img {
   max-width:100%;
 }
 
@@ -30,12 +34,20 @@ header {
   padding: 15px 0;
   }
 
+#mappahome {
+    padding: 10px 0;
+  }
+
+ #comesiusa {
+    padding: 10px 0;
+  }
+
 #mappa {
     padding: 10px 0;
   }
 
 #valledellojato {
-    padding: 10px 0;
+    padding: 30px 0 40px;
   }
 
 #condividi {
@@ -43,6 +55,9 @@ header {
 }
 
 #credits {
-  padding: 10px 0;
+  padding: 50px 0;
 }
 
+#tutorial {
+  padding: 50px 0;
+}
