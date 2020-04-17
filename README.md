@@ -2,4 +2,4 @@
 
 ### Descrizione
 
-Valle dello Jato - MappiAMO la bellezza è un'iniziativa che mira a valorizzare il territorio jatino tramite la mappatura di foto e video. Da un'idea della ProJato - Proloco di San Giuseppe Jato e San Cipirello
+Valle dello Jato - MappiAMO la bellezza èn progetto aperto e collaborativo che mira a valorizzare insieme il territorio tramite la mappatura di foto, video, audio, storie, sentieri...
