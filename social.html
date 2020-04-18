@@ -44,17 +44,57 @@
     <!-- Custom styles for this template -->
     <link href="css/projato.css" rel="stylesheet">
 
+    
     <style>
       html, body, iframe { display:block; margin:0; width:100%; height:100%; border:0 }
      </style>
-    
+
+     
     <!-- Fav and touch icons -->
     <link rel="shortcut icon" href="img/favicon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+</style>
+
 
 
 </head>
 
 <body id="page-top">
+
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v6.0"></script>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
@@ -88,38 +128,26 @@
       <p class="lead">Un progetto aperto e collaborativo <br> Valorizziamo insieme il territorio tramite la mappatura di foto, video, audio, storie, sentieri...</p>
       </div>
   </header>
+
+
+<section id="socialbuttons">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h6>Seguici su Instagram, Facebook, Twitter e Youtube</h6>
+<a target="_blank" href="https://www.instagram.com/pro.jato/" class="fa fa-instagram"></a>
+<a target="_blank" href="https://www.facebook.com/projato.proloco" class="fa fa-facebook"></a>
+<a target="_blank" href="https://twitter.com/projato_proloco" class="fa fa-twitter"></a>
+<a target="_blank" href="https://www.youtube.com/channel/UC5ahkQA1DotTQZeQmZ15Zsg" class="fa fa-youtube"></a>
+</div></div></div>
+</section>
   
-  <section id="comesiusa">
-    <div class="container">
+  <section id="twitter">
+    <div class="container ">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h4>Come si usa</h4><br>
-          <p>Vai sulla <a target="_blank" href="./mappa.html">Mappa</a> e <u>clicca sui markers</u>. Potrai visualizzare</p>
-          <ul>
-            <i>
-            <li>Titolo;</li>
-            <li>Foto (marker a goccia) - Video (marker quadrato);</li>
-            <li>Tipologia sito/oggetto;</li>
-            <li>Una descrizione oggettiva;</li>
-            <li>Una descrizione emotiva/soggettiva;</li>
-            <li>Comune;</li>
-            <li>Indirizzo/Località;</li>
-            <li>Autore.</li></i><br>
-          </ul>
-          <p> <u>Legenda</u> <br>(<i>aggiornata sulla base delle attuali tiplogie di sito/oggetto contenute nella mappa</i>)</p>
-          <img src="img/legenda.png" alt="Legenda della mappa"><br><br>
-         
-  </section>
-
-  <section id="tutorial">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h4>Tutorial</h4><br>
-          <h6> Una brevissima escursione virtuale <br><br>
-            <iframe src="https://www.youtube.com/embed/XQmyfrDFEzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h6>
+        <div class="col-lg-6 mx-auto">
+          <a class="twitter-timeline" data-height="600" href="https://twitter.com/projato_proloco">Tweets by </a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
    </section>
-
 
 
   <!-- Footer -->
